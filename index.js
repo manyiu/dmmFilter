@@ -10,7 +10,7 @@
 {
   ("use strict");
 
-  const defaultFilter = ["presale", "latest"];
+  const defaultFilter = ["presale", "latest", "reserve"];
 
   const statusFilter = (filter) => {
     const list = document.getElementById("list").children;
